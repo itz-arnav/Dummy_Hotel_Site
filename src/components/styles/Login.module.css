@@ -1,0 +1,36 @@
+.outerContainer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    overflow: hidden;
+}
+
+.innerContainer{
+    width: 70%;
+    height: 90%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.image{
+    width: 90%;
+    height:25rem;
+}
+
+.loginSection{
+    margin-left: 4rem;
+}
